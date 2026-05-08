@@ -1,0 +1,145 @@
+{
+  "%23tanstack-start-plugin-adapters": {
+    "file": "assets/__23tanstack-start-plugin-adapters-Cwee5PKy.js",
+    "name": "__23tanstack-start-plugin-adapters",
+    "src": "%23tanstack-start-plugin-adapters",
+    "isDynamicEntry": true
+  },
+  "C:/Users/Gauthm/Documents/Websites/Ongoing/NajmasCafe/najmascafe-main/src/styles.css": {
+    "file": "assets/styles-Cxtkq9Q5.css",
+    "src": "C:/Users/Gauthm/Documents/Websites/Ongoing/NajmasCafe/najmascafe-main/src/styles.css"
+  },
+  "_server-CloC_x25.js": {
+    "file": "assets/server-CloC_x25.js",
+    "name": "server",
+    "isDynamicEntry": true,
+    "dynamicImports": [
+      "tanstack-start-manifest:v",
+      "src/router.tsx",
+      "src/start.ts",
+      "%23tanstack-start-plugin-adapters"
+    ]
+  },
+  "_worker-entry-CksrjmTj.js": {
+    "file": "assets/worker-entry-CksrjmTj.js",
+    "name": "worker-entry",
+    "dynamicImports": [
+      "_server-CloC_x25.js"
+    ]
+  },
+  "src/assets/burgernaj.jpg": {
+    "file": "assets/burgernaj-CE9zYu7b.jpg",
+    "src": "src/assets/burgernaj.jpg"
+  },
+  "src/assets/cheese-burger.jpg": {
+    "file": "assets/cheese-burger-KIXavFjG.jpg",
+    "src": "src/assets/cheese-burger.jpg"
+  },
+  "src/assets/customers.jpg": {
+    "file": "assets/customers-mK8jXMcX.jpg",
+    "src": "src/assets/customers.jpg"
+  },
+  "src/assets/dessert.jpg": {
+    "file": "assets/dessert-Drlnog2Q.jpg",
+    "src": "src/assets/dessert.jpg"
+  },
+  "src/assets/fresh-juice.jpg": {
+    "file": "assets/fresh-juice-DpOTyB40.jpg",
+    "src": "src/assets/fresh-juice.jpg"
+  },
+  "src/assets/fries.jpg": {
+    "file": "assets/fries-VxOadcF1.jpg",
+    "src": "src/assets/fries.jpg"
+  },
+  "src/assets/hero-cafe.jpg": {
+    "file": "assets/hero-cafe-D8bEaMav.jpg",
+    "src": "src/assets/hero-cafe.jpg"
+  },
+  "src/assets/interior.jpg": {
+    "file": "assets/interior-Dl7FycxC.jpg",
+    "src": "src/assets/interior.jpg"
+  },
+  "src/assets/interiornaj.jpg": {
+    "file": "assets/interiornaj-sLVbbP27.jpg",
+    "src": "src/assets/interiornaj.jpg"
+  },
+  "src/assets/monster-shake.jpg": {
+    "file": "assets/monster-shake-Bi5aorMO.jpg",
+    "src": "src/assets/monster-shake.jpg"
+  },
+  "src/assets/monsternaj.jpeg": {
+    "file": "assets/monsternaj-Bq-5-UNB.jpeg",
+    "src": "src/assets/monsternaj.jpeg"
+  },
+  "src/assets/sandwich.jpg": {
+    "file": "assets/sandwich-DoOs3g0O.jpg",
+    "src": "src/assets/sandwich.jpg"
+  },
+  "src/assets/shawarma.jpg": {
+    "file": "assets/shawarma-BH6C8T1u.jpg",
+    "src": "src/assets/shawarma.jpg"
+  },
+  "src/router.tsx": {
+    "file": "assets/router-BdIcMqIZ.js",
+    "name": "router",
+    "src": "src/router.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CloC_x25.js"
+    ],
+    "dynamicImports": [
+      "src/routes/index.tsx?tsr-split=component"
+    ],
+    "assets": [
+      "assets/styles-Cxtkq9Q5.css"
+    ]
+  },
+  "src/routes/index.tsx?tsr-split=component": {
+    "file": "assets/index-KeMpKZmh.js",
+    "name": "index",
+    "src": "src/routes/index.tsx?tsr-split=component",
+    "isDynamicEntry": true,
+    "imports": [
+      "_server-CloC_x25.js"
+    ],
+    "assets": [
+      "assets/hero-cafe-D8bEaMav.jpg",
+      "assets/monster-shake-Bi5aorMO.jpg",
+      "assets/cheese-burger-KIXavFjG.jpg",
+      "assets/shawarma-BH6C8T1u.jpg",
+      "assets/sandwich-DoOs3g0O.jpg",
+      "assets/fresh-juice-DpOTyB40.jpg",
+      "assets/interior-Dl7FycxC.jpg",
+      "assets/monsternaj-Bq-5-UNB.jpeg",
+      "assets/burgernaj-CE9zYu7b.jpg",
+      "assets/interiornaj-sLVbbP27.jpg",
+      "assets/dessert-Drlnog2Q.jpg",
+      "assets/fries-VxOadcF1.jpg",
+      "assets/customers-mK8jXMcX.jpg"
+    ]
+  },
+  "src/start.ts": {
+    "file": "assets/start-D2MdfgP7.js",
+    "name": "start",
+    "src": "src/start.ts",
+    "isDynamicEntry": true,
+    "imports": [
+      "_worker-entry-CksrjmTj.js"
+    ]
+  },
+  "tanstack-start-manifest:v": {
+    "file": "assets/_tanstack-start-manifest_v-DiN9JNE5.js",
+    "name": "_tanstack-start-manifest_v",
+    "src": "tanstack-start-manifest:v",
+    "isDynamicEntry": true
+  },
+  "virtual:cloudflare/worker-entry": {
+    "file": "index.js",
+    "name": "index",
+    "src": "virtual:cloudflare/worker-entry",
+    "isEntry": true,
+    "imports": [
+      "_worker-entry-CksrjmTj.js"
+    ]
+  }
+}
